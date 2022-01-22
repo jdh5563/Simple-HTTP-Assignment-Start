@@ -1,0 +1,18 @@
+{
+  "name": "http-server-hw",
+  "version": "1.0.0",
+  "description": "The 2nd homework assigned in IGME 430",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "John Heiden",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
